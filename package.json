@@ -16,9 +16,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start:dev": "react-scripts start",
-    "build": "react-scripts build",
-    "start": "react-scripts build && node server.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build && node server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
