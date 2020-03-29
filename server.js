@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const JSON_DATA = require('./sample-data.json');
 
 // A utility logging middleware to log all incoming requests
